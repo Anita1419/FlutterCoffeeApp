@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "811893127141",
+    "project_id": "coffeeorders-5fe77",
+    "storage_bucket": "coffeeorders-5fe77.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:811893127141:android:b3bd66df2e7a1d8962e10c",
+        "android_client_info": {
+          "package_name": "com.example.coffeeorders_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "811893127141-0fprkhtbcjjh050jvk2em0b6sohq1fqd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCUGMpwzHkKs-Myk9IhRUz3vqeUI5QJEuQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "811893127141-0fprkhtbcjjh050jvk2em0b6sohq1fqd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
