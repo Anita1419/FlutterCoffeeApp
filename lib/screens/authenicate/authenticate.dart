@@ -1,4 +1,4 @@
-import 'package:coffeeorders_app/screens/authenicate/RegisterUser.dart';
+import 'package:coffeeorders_app/screens/authenicate/register_user.dart';
 import 'package:coffeeorders_app/screens/authenicate/signIn.dart';
 import 'package:flutter/material.dart';
 
@@ -12,17 +12,16 @@ class Authenticate extends StatefulWidget {
 class _AuthenticateState extends State<Authenticate> {
   bool showSignIn = true;
 
-  void toggleView(){
+  void toggleView() {
     setState(() => showSignIn = !showSignIn);
   }
 
-
   @override
   Widget build(BuildContext context) {
-    if(showSignIn){
-      return SignIn(toggleView : toggleView);
-    }else {
-      return Register(toggleView : toggleView);
+    if (showSignIn) {
+      return SignIn(toggleView: toggleView);
+    } else {
+      return Register(toggleView: toggleView);
     }
   }
 }
